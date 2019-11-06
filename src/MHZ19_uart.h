@@ -11,19 +11,6 @@
 #include "Arduino.h"
 #ifdef ARDUINO_ARCH_ESP32
 	#include "HardwareSerial.h"
-#else/*
-  MHZ19_uart.h - MH-Z19 CO2 sensor library for ESP-WROOM-02/32(ESP8266/ESP32) or Arduino
-  version 0.3
-  
-  License MIT
-*/
-
-#ifndef MHZ19_uart_h_
-#define MHZ19_uart_h_
-
-#include "Arduino.h"
-#ifdef ARDUINO_ARCH_ESP32
-	#include "HardwareSerial.h"
 #else
 	#include "SoftwareSerial.h"
 #endif
